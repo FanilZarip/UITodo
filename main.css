@@ -142,7 +142,7 @@ body {
     height: 21px;
     width: 21px;
     border: none;
-    background-image: url(/img/unchecked.svg);
+    background-image: url(./img/unchecked.svg);
     background-repeat: no-repeat;
 }
 
@@ -150,7 +150,7 @@ body {
   /* стили для чекбокса, находящегося в состоянии checked */
 .todoCheckBox>input:checked+span::before {
     border: none;
-    background-image: url(/img/checked.svg);
+    background-image: url(./img/checked.svg);
     background-repeat: no-repeat;
 }
 
