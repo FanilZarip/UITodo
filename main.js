@@ -122,9 +122,8 @@ function deleteTask () {
             if (DeletButtonIdEqualBlockId) {
                 block.remove();
             }
-            console.log(taskList);
-
-        } 
+        }
+        console.log(taskList);
     }
 }
 
